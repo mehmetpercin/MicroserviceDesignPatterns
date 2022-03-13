@@ -88,6 +88,8 @@ namespace Saga.Orchestration.StateMachineWorkerService.Models
             .TransitionTo(PaymentFailed)
             .Then(context => { Console.WriteLine($"StockRollBackMessage after : {context.Instance}"); })
             );
+
+            SetCompletedWhenFinalized();
         }
 
 
