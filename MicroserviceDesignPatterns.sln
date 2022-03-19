@@ -15,15 +15,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "SagaChoreographyP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SagaOrchestrationPattern", "SagaOrchestrationPattern", "{BDC8748F-2FBE-49F1-99AB-CD4C5A2BA797}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Orchestration.Order.API", "SagaOrchestrationPattern\Saga.Orchestration.Order.API\Saga.Orchestration.Order.API.csproj", "{55DFB76D-09B4-40E1-AFB2-85A30D5D002E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saga.Orchestration.Order.API", "SagaOrchestrationPattern\Saga.Orchestration.Order.API\Saga.Orchestration.Order.API.csproj", "{55DFB76D-09B4-40E1-AFB2-85A30D5D002E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Orchestration.Stock.API", "SagaOrchestrationPattern\Saga.Orchestration.Stock.API\Saga.Orchestration.Stock.API.csproj", "{701B2444-6206-4193-A02E-19D91F290B10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saga.Orchestration.Stock.API", "SagaOrchestrationPattern\Saga.Orchestration.Stock.API\Saga.Orchestration.Stock.API.csproj", "{701B2444-6206-4193-A02E-19D91F290B10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Orchestration.Payment.API", "SagaOrchestrationPattern\Saga.Orchestration.Payment.API\Saga.Orchestration.Payment.API.csproj", "{EF548341-29FC-491C-8C0A-02255F2FFB8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saga.Orchestration.Payment.API", "SagaOrchestrationPattern\Saga.Orchestration.Payment.API\Saga.Orchestration.Payment.API.csproj", "{EF548341-29FC-491C-8C0A-02255F2FFB8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Orchestration.StateMachineWorkerService", "SagaOrchestrationPattern\Saga.Orchestration.StateMachineWorkerService\Saga.Orchestration.StateMachineWorkerService.csproj", "{01CBB7E2-EA96-4DA1-8560-1B5C8818FE38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saga.Orchestration.StateMachineWorkerService", "SagaOrchestrationPattern\Saga.Orchestration.StateMachineWorkerService\Saga.Orchestration.StateMachineWorkerService.csproj", "{01CBB7E2-EA96-4DA1-8560-1B5C8818FE38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Orchestration.Shared", "SagaOrchestrationPattern\Saga.Orchestration.Shared\Saga.Orchestration.Shared.csproj", "{7992ED44-CA6C-442F-8339-BF37ABE36B53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saga.Orchestration.Shared", "SagaOrchestrationPattern\Saga.Orchestration.Shared\Saga.Orchestration.Shared.csproj", "{7992ED44-CA6C-442F-8339-BF37ABE36B53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventSourcing", "EventSourcing", "{7D73FA16-8F46-4183-985A-CF6744A5AB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing.Shared", "EventSourcing\EventSourcing.Shared\EventSourcing.Shared.csproj", "{53A3E1A3-28B5-4007-8AD5-C9A94C009681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing.API", "EventSourcing\EventSourcing.API\EventSourcing.API.csproj", "{7EE8A74C-8FB0-4F05-98C0-32E055A902D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +73,14 @@ Global
 		{7992ED44-CA6C-442F-8339-BF37ABE36B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7992ED44-CA6C-442F-8339-BF37ABE36B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7992ED44-CA6C-442F-8339-BF37ABE36B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A3E1A3-28B5-4007-8AD5-C9A94C009681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A3E1A3-28B5-4007-8AD5-C9A94C009681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A3E1A3-28B5-4007-8AD5-C9A94C009681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A3E1A3-28B5-4007-8AD5-C9A94C009681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE8A74C-8FB0-4F05-98C0-32E055A902D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE8A74C-8FB0-4F05-98C0-32E055A902D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE8A74C-8FB0-4F05-98C0-32E055A902D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE8A74C-8FB0-4F05-98C0-32E055A902D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +95,8 @@ Global
 		{EF548341-29FC-491C-8C0A-02255F2FFB8C} = {BDC8748F-2FBE-49F1-99AB-CD4C5A2BA797}
 		{01CBB7E2-EA96-4DA1-8560-1B5C8818FE38} = {BDC8748F-2FBE-49F1-99AB-CD4C5A2BA797}
 		{7992ED44-CA6C-442F-8339-BF37ABE36B53} = {BDC8748F-2FBE-49F1-99AB-CD4C5A2BA797}
+		{53A3E1A3-28B5-4007-8AD5-C9A94C009681} = {7D73FA16-8F46-4183-985A-CF6744A5AB77}
+		{7EE8A74C-8FB0-4F05-98C0-32E055A902D6} = {7D73FA16-8F46-4183-985A-CF6744A5AB77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8AD5DFFB-0D47-4CF2-8B0E-88246151CB47}
