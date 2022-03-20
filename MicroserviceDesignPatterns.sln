@@ -25,11 +25,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saga.Orchestration.StateMac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saga.Orchestration.Shared", "SagaOrchestrationPattern\Saga.Orchestration.Shared\Saga.Orchestration.Shared.csproj", "{7992ED44-CA6C-442F-8339-BF37ABE36B53}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventSourcing", "EventSourcing", "{7D73FA16-8F46-4183-985A-CF6744A5AB77}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventSourcingPatttern", "EventSourcingPatttern", "{7D73FA16-8F46-4183-985A-CF6744A5AB77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing.Shared", "EventSourcing\EventSourcing.Shared\EventSourcing.Shared.csproj", "{53A3E1A3-28B5-4007-8AD5-C9A94C009681}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventSourcing.Shared", "EventSourcing\EventSourcing.Shared\EventSourcing.Shared.csproj", "{53A3E1A3-28B5-4007-8AD5-C9A94C009681}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing.API", "EventSourcing\EventSourcing.API\EventSourcing.API.csproj", "{7EE8A74C-8FB0-4F05-98C0-32E055A902D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventSourcing.API", "EventSourcing\EventSourcing.API\EventSourcing.API.csproj", "{7EE8A74C-8FB0-4F05-98C0-32E055A902D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResiliencyPatterns", "ResiliencyPatterns", "{4974C8F4-15D3-4B6F-9521-BD6DA8FDAF0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceA", "ResiliencyPatterns\Retry.ServiceA\ServiceA.csproj", "{2F56B41F-F9B6-475B-96D8-D43870232308}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceB", "ResiliencyPatterns\Retry.ServiceB\ServiceB.csproj", "{EB5F637B-9424-4F2A-9161-8059FAE8C72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,14 @@ Global
 		{7EE8A74C-8FB0-4F05-98C0-32E055A902D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EE8A74C-8FB0-4F05-98C0-32E055A902D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EE8A74C-8FB0-4F05-98C0-32E055A902D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F56B41F-F9B6-475B-96D8-D43870232308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F56B41F-F9B6-475B-96D8-D43870232308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F56B41F-F9B6-475B-96D8-D43870232308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F56B41F-F9B6-475B-96D8-D43870232308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5F637B-9424-4F2A-9161-8059FAE8C72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5F637B-9424-4F2A-9161-8059FAE8C72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5F637B-9424-4F2A-9161-8059FAE8C72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5F637B-9424-4F2A-9161-8059FAE8C72B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +111,8 @@ Global
 		{7992ED44-CA6C-442F-8339-BF37ABE36B53} = {BDC8748F-2FBE-49F1-99AB-CD4C5A2BA797}
 		{53A3E1A3-28B5-4007-8AD5-C9A94C009681} = {7D73FA16-8F46-4183-985A-CF6744A5AB77}
 		{7EE8A74C-8FB0-4F05-98C0-32E055A902D6} = {7D73FA16-8F46-4183-985A-CF6744A5AB77}
+		{2F56B41F-F9B6-475B-96D8-D43870232308} = {4974C8F4-15D3-4B6F-9521-BD6DA8FDAF0A}
+		{EB5F637B-9424-4F2A-9161-8059FAE8C72B} = {4974C8F4-15D3-4B6F-9521-BD6DA8FDAF0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8AD5DFFB-0D47-4CF2-8B0E-88246151CB47}
